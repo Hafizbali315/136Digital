@@ -1,0 +1,7 @@
+.main_page {
+	z-index: 0;
+	margin-top: -100px;
+}
+
+@import '../components/MainPage/CoverPage/CoverPage.scss';
+@import '../components/MainPage/WorkSection/WorkSection.scss';

@@ -1,0 +1,338 @@
+.brand_section {
+	margin: 150px 0;
+	padding: 0 200px;
+
+	.heading {
+		h1 {
+			font-family: Anodina;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 50px;
+			line-height: 120%;
+			color: #002944;
+		}
+	}
+
+	.slider_container {
+		margin-top: 40px;
+		padding: 0 150px;
+		height: 260px;
+		background-image: url('../../../assets/images/brand-slider-backgroud.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		position: relative;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+
+		.arrow_previous {
+			position: absolute;
+			left: 70px;
+			cursor: pointer;
+			user-select: none;
+		}
+
+		.arrow_next {
+			position: absolute;
+			right: 70px;
+			cursor: pointer;
+			user-select: none;
+		}
+
+		.slide {
+			opacity: 0;
+			transition-duration: 1s ease;
+			transform: scale(1.25);
+		}
+
+		.slide.active {
+			opacity: 1;
+			transition-duration: 1s;
+			transform: scale(1);
+		}
+
+		.content {
+			p {
+				font-family: Anodina;
+				font-weight: bold;
+				font-size: 20px;
+				line-height: 140%;
+				color: #494949;
+			}
+
+			h6 {
+				margin-top: 26px;
+				font-family: Anodina;
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 120%;
+				color: #002944;
+			}
+		}
+	}
+
+	.branding_images {
+		margin-top: 30px;
+
+		&:first-child {
+			margin-left: -20px;
+		}
+		&:last-child {
+			margin-right: -50px;
+		}
+
+		img {
+			width: 160px;
+			height: 94px;
+		}
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.brand_section {
+		padding: 0 150px;
+
+		.heading {
+			h1 {
+				font-size: 40px;
+			}
+		}
+
+		.slider_container {
+			margin-top: 40px;
+			padding: 0 100px;
+			height: 260px;
+
+			.arrow_previous {
+				left: 50px;
+			}
+
+			.arrow_next {
+				right: 50px;
+			}
+
+			.content {
+				p {
+					font-size: 20px;
+					line-height: 140%;
+				}
+
+				h6 {
+					margin-top: 26px;
+					font-family: AnodinaLight;
+					font-size: 16px;
+				}
+			}
+		}
+
+		.branding_images {
+			margin-top: 30px;
+
+			&:first-child {
+				margin-left: -20px;
+			}
+			&:last-child {
+				margin-right: -50px;
+			}
+
+			img {
+				width: 140px;
+				height: 80px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.brand_section {
+		padding: 0 100px;
+
+		.heading {
+			h1 {
+				font-size: 35px;
+			}
+		}
+
+		.slider_container {
+			margin-top: 30px;
+
+			.arrow_previous {
+				left: 40px;
+			}
+
+			.arrow_next {
+				right: 40px;
+			}
+
+			.content {
+				p {
+					font-size: 18px;
+				}
+			}
+		}
+
+		.branding_images {
+			margin-top: 30px;
+
+			&:first-child {
+				margin-left: -20px;
+			}
+			&:last-child {
+				margin-right: -50px;
+			}
+
+			img {
+				width: 120px;
+				height: 80px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.brand_section {
+		margin: 120px 0;
+		padding: 0 75px;
+
+		.heading {
+			h1 {
+				font-size: 30px;
+			}
+		}
+
+		.slider_container {
+			margin-top: 30px;
+			padding: 0 75px;
+
+			.arrow_previous {
+				left: 30px;
+				width: 40px;
+				height: 40px;
+			}
+
+			.arrow_next {
+				width: 40px;
+				height: 40px;
+				right: 30px;
+			}
+
+			.content {
+				p {
+					font-size: 16px;
+					line-height: 18px;
+				}
+				h6 {
+					margin-top: 20px;
+					font-family: AnodinaLight;
+					font-size: 14px;
+				}
+			}
+		}
+
+		.branding_images {
+			margin-top: 30px;
+			text-align: center;
+
+			img {
+				width: 120px;
+				height: 80px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.brand_section {
+		margin: 100px 0;
+		padding: 0 50px;
+
+		.slider_container {
+			margin-top: 30px;
+			padding: 0 50px;
+
+			.arrow_previous {
+				left: 20px;
+				width: 30px;
+				height: 30px;
+			}
+
+			.arrow_next {
+				width: 30px;
+				height: 30px;
+				right: 20px;
+			}
+
+			.content {
+				p {
+					font-size: 16px;
+					line-height: 18px;
+				}
+				h6 {
+					margin-top: 20px;
+					font-family: AnodinaLight;
+					font-size: 12px;
+				}
+			}
+		}
+
+		.branding_images {
+			margin-top: 20px;
+			text-align: center;
+
+			img {
+				width: 100px;
+				height: 70px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.brand_section {
+		margin: 80px 0;
+		padding: 0 30px;
+
+		.slider_container {
+			margin-top: 30px;
+			padding: 0 50px;
+
+			.arrow_previous {
+				left: 10px;
+				width: 30px;
+				height: 30px;
+			}
+
+			.arrow_next {
+				width: 30px;
+				height: 30px;
+				right: 10px;
+			}
+
+			.content {
+				p {
+					font-size: 14px;
+					line-height: 18px;
+				}
+				h6 {
+					margin-top: 20px;
+					font-family: AnodinaLight;
+					font-size: 12px;
+				}
+			}
+		}
+
+		.branding_images {
+			margin-top: 20px;
+			text-align: center;
+
+			img {
+				width: 80px;
+				height: 50px;
+			}
+		}
+	}
+}
