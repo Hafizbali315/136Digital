@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import ArrowNext from '../../../assets/images/next-icon.svg'
-import ArrowPrevious from '../../../assets/images/previous-icon.svg'
+import ArrowNext from '../../assets/images/next-icon.svg'
+import ArrowPrevious from '../../assets/images/previous-icon.svg'
 import './style.scss'
 
-import Image1 from '../../../assets/images/mainPage/brand/1.svg'
-import Image2 from '../../../assets/images/mainPage/brand/2.svg'
-import Image3 from '../../../assets/images/mainPage/brand/3.svg'
-import Image4 from '../../../assets/images/mainPage/brand/4.svg'
-import Image5 from '../../../assets/images/mainPage/brand/5.svg'
-import Image6 from '../../../assets/images/mainPage/brand/6.svg'
+// import Image1 from '../../assets/images/mainPage/brand/1.svg'
+// import Image2 from '../../assets/images/mainPage/brand/2.svg'
+// import Image3 from '../../assets/images/mainPage/brand/3.svg'
+// import Image4 from '../../assets/images/mainPage/brand/4.svg'
+// import Image5 from '../../assets/images/mainPage/brand/5.svg'
+// import Image6 from '../../assets/images/mainPage/brand/6.svg'
 
-const BrandSection = () => {
+const BrandSection = ({ Image1, Image2, Image3, Image4, Image5, Image6 }) => {
 	const [currentSlide, setCurrentSlide] = useState(0)
 
 	const BrandContent = [
