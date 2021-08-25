@@ -26,6 +26,104 @@ body {
 	src: url('./fonts/Anodina-Bold.otf');
 }
 
+// !  Global Style
+
+.container_padding {
+	padding: 0 200px;
+}
+
+.section_margin {
+	margin: 150px 0;
+}
+
+.heading {
+	h1 {
+		font-size: 50px;
+		font-weight: 700;
+		font-family: Anodina;
+		font-style: normal;
+		line-height: 120%;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.heading {
+		h1 {
+			font-size: 40px;
+		}
+	}
+
+	.container_padding {
+		padding: 0 150px;
+	}
+
+	.section_margin {
+		margin: 150px 0;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.heading {
+		h1 {
+			font-size: 35px;
+		}
+	}
+
+	.container_padding {
+		padding: 0 100px;
+	}
+
+	.section_margin {
+		margin: 120px 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.heading {
+		h1 {
+			font-size: 30px;
+		}
+	}
+
+	.container_padding {
+		padding: 0 100px;
+	}
+
+	.section_margin {
+		margin: 120px 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container_padding {
+		padding: 0 75px;
+	}
+
+	.section_margin {
+		margin: 100px 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container_padding {
+		padding: 0 50px;
+	}
+
+	.section_margin {
+		margin: 80px 0;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.container_padding {
+		padding: 0 30px;
+	}
+
+	.section_margin {
+		margin: 80px 0;
+	}
+}
+
 // ! ------------ Pages ------------------
 @import './styles/MainPage.scss';
 
