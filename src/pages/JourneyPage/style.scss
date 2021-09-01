@@ -1,0 +1,384 @@
+.journey_page {
+	.hero_card {
+		position: relative;
+
+		.background_img_container {
+			width: 100%;
+			height: 600px;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.content_container {
+			position: absolute;
+			top: 0;
+			height: 100%;
+
+			display: flex;
+			align-items: center;
+			color: #fff;
+
+			.content {
+				h1 {
+					width: 60%;
+				}
+
+				p {
+					width: 50%;
+					font-size: 18px;
+					padding-top: 15px;
+				}
+			}
+		}
+	}
+
+	.how_journey_works_section {
+		.heading {
+			margin-bottom: 30px;
+		}
+
+		.card {
+			width: 100%;
+			height: 360px;
+
+			.top_img_container {
+				width: 100%;
+				height: 50%;
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			.content_container {
+				position: relative;
+				height: 50%;
+
+				.content_img_container {
+					width: 100%;
+					height: 100%;
+
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+
+				.content {
+					position: absolute;
+					height: 100%;
+					top: 0;
+					left: 0;
+					padding: 20px;
+
+					text-align: center;
+					display: flex;
+					align-items: center;
+
+					div {
+						h5 {
+							font-weight: bold;
+							font-size: 22px;
+							line-height: 140%;
+							color: #002944;
+						}
+
+						p {
+							padding-top: 6px;
+							font-weight: 300;
+							font-size: 14px;
+							line-height: 120%;
+							text-align: center;
+							color: #494949;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.build_for_section {
+		.heading {
+			margin-bottom: 20px;
+		}
+
+		.card {
+			background: #002944;
+			height: 200px;
+			color: #fff;
+			padding: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			h5 {
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 140%;
+			}
+
+			ul {
+				list-style: none;
+				padding: 5px 0;
+				margin: 0;
+
+				li {
+					font-weight: 300;
+					font-size: 16px;
+					line-height: 140%;
+				}
+			}
+		}
+	}
+
+	.services_section {
+		.heading {
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 140%;
+			color: #002944;
+		}
+
+		.content_card {
+			width: 100%;
+			height: 130px;
+			position: relative;
+
+			.img_container {
+				width: 100%;
+				height: 100%;
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+			.content {
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 0 60px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				p {
+					margin: 0;
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 120%;
+					color: #494949;
+					padding: 10px 0;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.journey_page {
+		.hero_card {
+			.background_img_container {
+				height: 600px;
+			}
+
+			.content_container {
+				.content {
+					h1 {
+						width: 70%;
+					}
+
+					p {
+						width: 60%;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+
+		.services_section {
+			.content_card {
+				height: 130px;
+
+				.content {
+					padding: 0 30px;
+
+					p {
+						font-size: 14px;
+						padding: 8px 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.journey_page {
+		.hero_card {
+			.background_img_container {
+				height: 600px;
+			}
+
+			.content_container {
+				.content {
+					h1 {
+						width: 70%;
+					}
+
+					p {
+						width: 60%;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+
+		.services_section {
+			h2 {
+				font-size: 20px;
+			}
+
+			.content_card {
+				height: 130px;
+
+				.content {
+					padding: 0 30px;
+
+					p {
+						font-size: 14px;
+						padding: 8px 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.journey_page {
+		.hero_card {
+			.background_img_container {
+				height: 480px;
+			}
+
+			.content_container {
+				.content {
+					h1 {
+						width: 80%;
+					}
+
+					p {
+						width: 70%;
+					}
+				}
+			}
+		}
+
+		.how_journey_works_section {
+			.heading {
+				margin-bottom: 10px;
+			}
+		}
+
+		.build_for_section {
+			.heading {
+				margin-bottom: 10px;
+			}
+
+			.card {
+				height: 180px;
+
+				ul {
+					li {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+
+		.services_section {
+			.heading {
+				margin-bottom: 10px;
+			}
+
+			h2 {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.journey_page {
+		.hero_card {
+			.background_img_container {
+				height: 480px;
+			}
+
+			.content_container {
+				.content {
+					h1 {
+						width: 100%;
+					}
+
+					p {
+						width: 100%;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+
+		.services_section {
+			.content_card {
+				height: 200px;
+
+				.content {
+					padding: 0 30px;
+					text-align: center;
+
+					p {
+						font-size: 12px;
+						padding: 8px 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.journey_page {
+		.hero_card {
+			.background_img_container {
+				height: 650px;
+			}
+		}
+
+		.build_for_section {
+			.card {
+				ul {
+					li {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 450px) {
+}
