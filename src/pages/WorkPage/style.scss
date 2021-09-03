@@ -1,0 +1,350 @@
+.work_page {
+	.hero_card {
+		position: relative;
+
+		.img_container {
+			width: 100%;
+			height: 400px;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.content {
+			position: absolute;
+			top: 0;
+			height: 100%;
+
+			display: flex;
+			align-items: center;
+			color: #fff;
+
+			.heading {
+				h1 {
+					width: 70%;
+				}
+			}
+		}
+	}
+
+	.work_navbar {
+		margin: 80px 0;
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: grid;
+			grid-template-columns: auto auto auto auto auto;
+
+			li {
+				font-style: normal;
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 120%;
+				color: #9e9e9e;
+			}
+
+			.active {
+				color: #119ccc;
+			}
+		}
+	}
+
+	.main_section_content {
+		.custom_margin {
+			margin-top: 100px;
+		}
+
+		.sm_margin {
+			margin-top: 0;
+		}
+
+		.img_container_lg {
+			width: 100%;
+			height: 500px;
+
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.img_container_sm {
+			width: 100%;
+			height: 250px;
+
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+
+		p {
+			margin-top: 20px;
+			margin-bottom: 8px;
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 120%;
+			color: #9e9e9e;
+		}
+
+		h2 {
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 140%;
+			color: #002944;
+		}
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.work_page {
+		.hero_card {
+			.img_container {
+				height: 340px;
+			}
+
+			.content {
+				.heading {
+					h1 {
+						width: 75%;
+					}
+				}
+			}
+		}
+
+		.work_navbar {
+			margin: 70px 0;
+
+			ul {
+				grid-template-columns: auto auto auto auto auto;
+			}
+		}
+
+		.main_section_content {
+			.custom_margin {
+				margin-top: 80px;
+			}
+
+			.img_container_lg {
+				height: 420px;
+			}
+
+			.img_container_sm {
+				height: 205px;
+			}
+
+			p {
+				margin-top: 10px;
+				margin-bottom: 6px;
+				font-size: 14px;
+			}
+
+			h2 {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.work_page {
+		.hero_card {
+			.img_container {
+				height: 300px;
+			}
+
+			.content {
+				.heading {
+					h1 {
+						width: 80%;
+					}
+				}
+			}
+		}
+
+		.work_navbar {
+			margin: 60px 0;
+
+			ul {
+				grid-template-columns: auto auto auto auto auto;
+			}
+		}
+
+		.main_section_content {
+			.custom_margin {
+				margin-top: 60px;
+			}
+
+			.img_container_lg {
+				height: 400px;
+			}
+
+			.img_container_sm {
+				height: 200px;
+			}
+
+			p {
+				margin-top: 10px;
+				margin-bottom: 6px;
+				font-size: 14px;
+			}
+
+			h2 {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.work_page {
+		.hero_card {
+			.img_container {
+				height: 280px;
+			}
+
+			.content {
+				.heading {
+					h1 {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.work_navbar {
+			margin: 50px 0;
+
+			ul {
+				grid-template-columns: auto auto auto;
+
+				li {
+					margin-bottom: 20px;
+				}
+			}
+		}
+
+		.main_section_content {
+			.custom_margin {
+				margin-top: 50px;
+			}
+
+			.sm_margin {
+				margin-top: 50px;
+			}
+
+			.img_container_lg {
+				height: 300px;
+			}
+
+			.img_container_sm {
+				height: 300px;
+			}
+
+			p {
+				margin-top: 10px;
+				margin-bottom: 6px;
+				font-size: 14px;
+			}
+
+			h2 {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.work_page {
+		.hero_card {
+			.img_container {
+				height: 200px;
+			}
+		}
+
+		.work_navbar {
+			margin: 40px 0;
+
+			ul {
+				grid-template-columns: auto auto;
+
+				li {
+					margin-bottom: 20px;
+					font-size: 12px;
+				}
+			}
+		}
+
+		.main_section_content {
+			.custom_margin {
+				margin-top: 50px;
+			}
+
+			.sm_margin {
+				margin-top: 50px;
+			}
+
+			.img_container_lg {
+				height: 250px;
+			}
+
+			.img_container_sm {
+				height: 250px;
+			}
+
+			p {
+				margin-top: 10px;
+				margin-bottom: 6px;
+				font-size: 14px;
+			}
+
+			h2 {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.work_page {
+		.hero_card {
+			.img_container {
+				height: 300px;
+			}
+		}
+
+		.main_section_content {
+			.custom_margin {
+				margin-top: 50px;
+			}
+
+			.sm_margin {
+				margin-top: 50px;
+			}
+
+			.img_container_lg {
+				height: 200px;
+			}
+
+			.img_container_sm {
+				height: 200px;
+			}
+
+			p {
+				margin-top: 10px;
+				margin-bottom: 6px;
+				font-size: 14px;
+			}
+
+			h2 {
+				font-size: 16px;
+			}
+		}
+	}
+}
