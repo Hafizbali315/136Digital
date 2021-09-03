@@ -4,7 +4,7 @@ const CoverPage = () => {
 	return (
 		<div className="cover_page">
 			<div className="content">
-				<h1>We provide our marketing expertise for brands</h1>
+				<h1>EXPERTLY TAKING BRANDS ON A DIGITAL JOURNEY</h1>
 
 				<button>
 					Discuss project <CgArrowLongRight className="arrow" />
